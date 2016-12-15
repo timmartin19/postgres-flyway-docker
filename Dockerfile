@@ -13,7 +13,7 @@ RUN wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/3.2.1/fl
     ln -s /opt/flyway/flyway-3.2.1/flyway /usr/local/bin/flyway
 
 
-ENV APP_ROOT="/app"
+ENV APP_ROOT="/app" \
     USER_ROOT="/home/postgres" \
     APP_USER="postgres" \
     APP_GROUP="postgres" \
